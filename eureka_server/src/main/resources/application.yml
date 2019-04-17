@@ -1,0 +1,9 @@
+server:
+  port: 5555
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    registry-fetch-interval-seconds: 60
